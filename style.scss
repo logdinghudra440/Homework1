@@ -14,9 +14,7 @@ button {
     font-family: 'Montserrat', arial;
 }
 
-html {
-  
-}
+html {}
 
 .center {
     padding-left: calc(50% - 600px);
@@ -33,17 +31,17 @@ html {
     height: 800px;
     position: relative;
 
-    &__star{
+    &__star {
         display: flex;
         flex-direction: row-reverse;
         align-items: flex-end;
         position: absolute;
         right: 0;
         top: 0;
-        
+
     }
 
-    &__star-small{
+    &__star-small {
         padding-bottom: 150px;
         display: flex;
         flex-direction: row-reverse;
@@ -76,7 +74,8 @@ html {
         text-decoration: none;
         width: 247px;
     }
-    &__buttom:hover{
+
+    &__buttom:hover {
         border: 1px solid #202027;
         background-color: transparent;
         color: #202027;
@@ -85,25 +84,27 @@ html {
 
 }
 
-.content{
+.content {
     background-color: #202027;
 }
 
-.cart{
-    &__title{
+.cart {
+    &__title {
         color: white;
         font-size: 64px;
         width: 700;
         padding-top: 94px;
     }
-    &__text{
+
+    &__text {
         color: white;
         font-size: 24px;
         padding-top: 24px;
         max-width: 750px;
         padding-bottom: 72px;
     }
-    &__list-box{
+
+    &__list-box {
         display: flex;
         flex-wrap: wrap;
         -moz-column-gap: 32px;
@@ -111,7 +112,7 @@ html {
         column-gap: 32px;
     }
 
-    &__list{
+    &__list {
         background-color: white;
         width: 378px;
         height: 473px;
@@ -120,39 +121,47 @@ html {
         display: block;
         text-decoration: none;
     }
-    &__list:hover{
+
+    &__list:hover {
         transform: scale(1.1);
     }
-    &__list_big{
+
+    &__list_big {
         height: 512px;
     }
-    &__list_higher{
+
+    &__list_higher {
         transform: translateY(-38px);
     }
-    &__name{
+
+    &__name {
         padding: 32px;
     }
-    &__name-number{
+
+    &__name-number {
         font-size: 16px;
         font-weight: 500;
         color: #202027;
     }
-    &__name-game{
+
+    &__name-game {
         font-size: 32px;
         font-weight: 700;
         padding-top: 16px;
         color: #202027;
     }
 }
+
 .game {
 
-    &__title{
+    &__title {
         color: white;
         font-size: 64px;
         width: 700;
         padding-top: 94px;
     }
-    &__cart-box{
+
+    &__cart-box {
         display: flex;
         flex-direction: column;
         gap: 32px;
@@ -160,33 +169,36 @@ html {
         padding-bottom: 144px;
     }
 
-    &__cart{
+    &__cart {
         display: flex;
         background-color: white;
         border-radius: 45px;
         justify-content: space-between;
         height: 500px;
     }
-    &__cart_left{
+
+    &__cart_left {
         display: flex;
         flex-direction: row-reverse;
     }
 
-    &__content{
+    &__content {
         padding: 48px;
     }
 
-    &__content-name{
+    &__content-name {
         font-size: 48px;
         font-weight: 700;
     }
-    &__content-text{
+
+    &__content-text {
         font-size: 24px;
         font-weight: 400;
         max-width: 435px;
         padding-top: 24px;
         padding-bottom: 36px;
     }
+
     &__content-buttom {
         display: block;
         background-color: #202027;
@@ -197,7 +209,8 @@ html {
         padding: 16px 75px 16px 75px;
         border: none;
     }
-    &__content-buttom:hover{
+
+    &__content-buttom:hover {
         border: 1px solid #202027;
         background-color: transparent;
         color: #202027;
@@ -205,14 +218,14 @@ html {
     }
 }
 
-.footer{
+.footer {
     height: 150px;
     background-color: #BDED35;
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    &__text{
+
+    &__text {
         font-size: 24px;
         font-weight: 600;
     }
