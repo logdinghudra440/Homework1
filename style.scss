@@ -24,30 +24,16 @@ html {}
 
 
 .hero {
-    background-image: url(img/background.png);
-    background-size: cover;
-    background-position: center;
+    background-color: #E1FF8F;
+    background-image: url(img/bigstar.png), url(img/tranbig.png), url(img/greensmall.png), url(img/greenbig.png), url(img/transmall.png);
     background-repeat: no-repeat;
+    background-position: top 0px right 0px,
+        right 344px top 568px,
+        right 456px top 538px,
+        left 64px top 95px,
+        left 156px top 70px;
     height: 800px;
-    position: relative;
 
-    &__star {
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: flex-end;
-        position: absolute;
-        right: 0;
-        top: 0;
-
-    }
-
-    &__star-small {
-        padding-bottom: 150px;
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: flex-start;
-        gap: 28px;
-    }
 
     &__title {
         font-weight: 700;
