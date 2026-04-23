@@ -35,7 +35,7 @@
         &__buttom {
             font-size: 16px;
             text-align: center;
-            width: 100%;
+            margin: 0px 30px 0px 30px;
         }
 
         &__content {
@@ -55,6 +55,9 @@
             font-weight: 700;
             padding-top: 48px;
         }
+        &__img{
+        width: 100%;
+        }
 
         &__cart {
             display: flex;
@@ -62,6 +65,9 @@
         }
 
         &__cart-box {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
             padding-bottom: 10px;
             padding-top: 48px;
         }
@@ -78,6 +84,7 @@
             font-size: 16px;
         }
     }
+
 
     .footer {
         min-height: 100px;

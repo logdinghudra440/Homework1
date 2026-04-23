@@ -38,7 +38,6 @@ button {
   padding-bottom: 48px;
 }
 .hero__buttom {
-  display: block;
   background-color: #202027;
   color: white;
   font-size: 24px;
@@ -47,7 +46,6 @@ button {
   padding: 16px 65px 16px 65px;
   border: none;
   text-decoration: none;
-  width: 20%;
   text-align: center;
 }
 .hero__buttom:hover {
@@ -122,6 +120,9 @@ button {
   font-size: 64px;
   width: 700;
   padding-top: 94px;
+}
+.game__img {
+  width: 70%;
 }
 .game__cart-box {
   display: flex;
@@ -211,7 +212,7 @@ button {
   .hero__buttom {
     font-size: 16px;
     text-align: center;
-    width: 100%;
+    margin: 0px 30px 0px 30px;
   }
   .hero__content {
     display: flex;
@@ -226,11 +227,17 @@ button {
     font-weight: 700;
     padding-top: 48px;
   }
+  .game__img {
+    width: 100%;
+  }
   .game__cart {
     display: flex;
     flex-direction: column;
   }
   .game__cart-box {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
     padding-bottom: 10px;
     padding-top: 48px;
   }
