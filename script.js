@@ -31,3 +31,10 @@ for (; n >= 50; num++) {
 
 console.log(`Результат: ${n}`);
 console.log(`Количество итераций: ${num}`);
+
+let firstFriday = 5; 
+const totalDays = 31;
+
+for (let day = firstFriday; day <= totalDays; day += 7) {
+    console.log(`Сегодня пятница, ${day} число. Необходимо подготовить отчет.`);
+}
