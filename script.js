@@ -1,5 +1,5 @@
 for (let i = 1; i <= 2; i++) {
-    console.log("Привет!");  
+    console.log("Привет!");
 }
 
 for (let a = 1; a <= 5; a++) {
@@ -14,11 +14,20 @@ for (let b = 0; b <= 22; b++) {
 }
 
 const obj = {
-    "Коля" : '200$',
-    "Вася" : '300$',
-    "Петя" : '400$'
+    "Коля": '200$',
+    "Вася": '300$',
+    "Петя": '400$'
 }
 
 for (let key in obj) {
-   console.log(`${key}: ${obj[key]}`); 
+    console.log(`${key}: ${obj[key]}`);
 }
+
+let n = 1000;
+let num = 0;
+for (; n >= 50; num++) {
+  n /= 2;
+}
+
+console.log(`Результат: ${n}`);
+console.log(`Количество итераций: ${num}`);
